@@ -1,0 +1,44 @@
+h1 {
+  color: orange;
+  text-align: center;
+  margin: 20px 0;
+}
+
+main {
+  display: flex;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+table,
+th,
+td {
+  border: 1px solid purple;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #CC6600;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+td:first-child {
+  width: 100px;
+}
+
+tr:nth-child(3) td,
+tr:nth-child(5) td {
+  background-color: #ffedca;
+}
+
+tr td:nth-child(1) {
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.title {
+  color: #ff3399;
+  background-color: #fecffd;
+  margin: 20px 0;
+}
+
+.poem {
+  background-color: #ffffcc;
+}
+
+.poem ul {
+  padding: 10px 0px;
+  list-style: none;
+}
+
+hr {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

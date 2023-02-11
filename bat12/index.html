@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Phiếu đăng ký tham gia chương trình khuyến mãi</h3>
+    <div class="wrapper">
+      <form action="">
+        <table style="width: 500px">
+          <tbody>
+            <tr>
+              <td><label for="name">Họ và tên </label></td>
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  value="Đinh Thanh Tùng"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="address">Địa chỉ </label></td>
+              <td>
+                <input
+                  type="text"
+                  name="address"
+                  id="address"
+                  value="Bình Phước"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone number </label></td>
+              <td>
+                <input
+                  type="number"
+                  name="phone"
+                  id="phone"
+                  value="0373659200"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="gender">Phái</label></td>
+              <td>
+                <input type="radio" name="gender" id="gender" checked />nam
+                <input type="radio" name="gender" id="gender" />nữ
+              </td>
+            </tr>
+            <tr>
+              <td><label for="products">Chọn sản phẩm tham gia </label></td>
+              <td>
+                <select name="products" id="products" multiple>
+                  <option value="">Kem đánh răng</option>
+                  <option value="">Sữa tắm</option>
+                  <option value="">Dầu gội đầu</option>
+                  <option value="">Sữ tắm</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="count">Số người dự đoán tham gia </label></td>
+              <td><input type="text" name="count" id="count" value="3" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <button type="submit">Đăng kí</button>
+              </td>
+            </tr>
+            <tr class="none">
+                <td colspan="2">Bạn đã đăng kí thành công</td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="app.js"></script>

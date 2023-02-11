@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cl-red {
+  color: red;
+}
+
+.font-big {
+  font-size: 50px;
+}
+
+h1 {
+  margin: 22px 0;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.bgc-orange {
+  background-color: #ffa550;
+  color: #fff;
+}
+
+.right {
+  text-align: right;
+}
+
+i{
+    background-color: yellow;
+}
+
+p{
+    margin: 20px 0;
+}

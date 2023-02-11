@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    padding: 0px 8px;
+}
+
+h2{
+    color: green;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.highlight{
+    color: red;
+}
+
+p{
+    margin: 20px 0;
+}
+
+pre{
+    background-color: #ccc;
+}

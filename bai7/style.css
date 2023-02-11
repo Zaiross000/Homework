@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    padding: 0px 8px;
+}
+
+h1{
+    color: red;
+    margin: 20px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+ol li span {
+    color: #fff;
+    background-color: red;
+}
+
+ul{
+    list-style: square;
+}
+
+b{
+    margin: 10px 20px;
+    display: block;
+}
+
+.cl-blue{
+    color: blue;
+}

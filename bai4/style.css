@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://mrdatngo.github.io/Baitap/bai1.3/images/corona.jpg)
+    no-repeat;
+  background-size: cover;
+  padding: 0px 8px;
+}
+
+h2,
+p {
+  color: #339999;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+p.highlight{
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  background-color: #339999;
+}
